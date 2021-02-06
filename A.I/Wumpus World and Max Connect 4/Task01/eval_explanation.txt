@@ -1,0 +1,7 @@
+Explanation:
+
+The Evaluation function calculates the the number of consecutive four's, three's and two's for both player and computer in the gameboard. 
+This is done using checking the gameboard vertically, horizontally and diagonally. 
+Each of these consecutive occurances are multiplied by weights such that the maximum possible outcome of consecutive two's should be less than the consecutive three's and 
+maximum consecutive three's should be less than those of consecutive four's.
+The sum of the above occurances multiplied by weights for player are then subtracted by those of the computer and the best move is chosen.
