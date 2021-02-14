@@ -8,3 +8,5 @@ Did two random medium code problems and completed Keep App part 2.
 Completed Keep App on React with functionalities such as add delete using handler and state.4
 #Day 5:
 Made some changes and updates to the portfolio page and hands-on on some C++ coding for the 2D histogram filter.
+#Day 6:
+Just a leetcode sum.
