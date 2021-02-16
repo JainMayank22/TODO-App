@@ -10,3 +10,5 @@ Completed Keep App on React with functionalities such as add delete using handle
 Made some changes and updates to the portfolio page and hands-on on some C++ coding for the 2D histogram filter.
 #Day 6:
 Just a leetcode sum.
+#Day 7: 
+Builded a mern stack exercise tracker.
