@@ -14,3 +14,9 @@ Just a leetcode sum.
 Builded a mern stack exercise tracker.
 #Day 8:
 Power and Wifi Outage in Texas kind off stopped but will upload api app today.
+#Day 9:
+Heroku Deployment
+#Day 10:
+APi MERN stack
+#Day 11:
+Data Structures
