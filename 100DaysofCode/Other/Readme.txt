@@ -12,3 +12,5 @@ Made some changes and updates to the portfolio page and hands-on on some C++ cod
 Just a leetcode sum.
 #Day 7: 
 Builded a mern stack exercise tracker.
+#Day 8:
+Power and Wifi Outage in Texas kind off stopped but will upload api app today.
