@@ -9682,7 +9682,17 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redux-thunk@2.3.0:
+redux-api-middleware@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/redux-api-middleware/-/redux-api-middleware-3.2.1.tgz#979473ba2bfcf78b1fd50763fe7a4bbf0c252e6e"
+  integrity sha512-LgFm9RIxjEOL1T2lVjlfsdHh6BOaduDsmmUWi2TV0F3nKrOMSCWS7AUmzgmr/wNuFzENGUC5SqklYJDNCwmuoA==
+
+redux-cached-api-middleware@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/redux-cached-api-middleware/-/redux-cached-api-middleware-0.3.0.tgz#ea81c20d27168c9117250a171f0cd1ee4c425229"
+  integrity sha512-YvKazvQ1KmiiHVaVG3sKZDgGdPWL3C0cqIIS+HC9IFID5HzVXw+TvK/n8aTFsMf/VImdDb7IgA4NPoag/4q0eQ==
+
+redux-thunk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
   integrity sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 import { connect } from 'react-redux';
+// import api from 'redux-cached-api-middleware';
 import { initiateGetJobs } from '../actions/jobs';
 import { resetErrors } from '../actions/errors';
 import Header from './Header';

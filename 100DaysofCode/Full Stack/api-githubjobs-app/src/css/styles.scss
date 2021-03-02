@@ -1,4 +1,4 @@
-$body-color: #949ca5;
+$body-color: #021122;
 $default-padding: 2rem;
 
 * {
@@ -15,7 +15,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.6rem;
-  background: #242582;
+  background: #070a47;
   color: $body-color;
   min-height: 100vh;
   letter-spacing: 1px;
@@ -36,7 +36,7 @@ ol {
   .title {
     font-weight: 600;
     font-size: 3rem;
-    color: #fff;
+    color: rgb(226, 226, 226);
   }
 }
 
@@ -54,7 +54,7 @@ ol {
     letter-spacing: 1px;
     width: 13rem;
     line-height: 1.5;
-    color: #fff;
+    color: rgb(218, 28, 28);
     border: none;
   }
 }
@@ -73,7 +73,7 @@ ol {
     cursor: pointer;
   }
   .active {
-    background: #0069d9;
+    background: #94c0ee;
     color: #fff;
   }
   .full-time-checkbox {
@@ -139,7 +139,7 @@ ol {
 
   button {
     border: none;
-    background: #0e7bff;
+    background: #2bbb0f;
     color: #fff;
     border-radius: 20px;
     padding: 10px;
