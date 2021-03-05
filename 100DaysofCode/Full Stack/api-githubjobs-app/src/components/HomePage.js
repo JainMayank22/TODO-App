@@ -10,7 +10,7 @@ import Results from './Results';
 import JobDetails from './JobDetails';
 import JobsContext from '../context/jobs';
 
-const CACHE_KEY = 'GET/';
+// const CACHE_KEY = 'GET/';
 
 // Declared state variables by hook to store the results from the API in array 
 // and flag for "loading.." & "when to display the details page" default is set to home
