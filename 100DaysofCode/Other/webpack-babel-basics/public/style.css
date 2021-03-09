@@ -44,14 +44,11 @@ img {
 
 
   .card__face--back {
-    color: #788697;
     transform: rotateY( 180deg );
   }
 
-  
 
-
-  .card__face--back {
+  .card__face {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -123,7 +120,7 @@ button:hover {
 }
 
 .scene {
-    perspective: 1000px;
+    perspective: 600px;
     max-width: 300px;
   
     /* Center the container in middle on horizontal axis */

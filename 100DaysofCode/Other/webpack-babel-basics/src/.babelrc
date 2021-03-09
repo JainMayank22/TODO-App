@@ -1,0 +1,8 @@
+//  tell babel to use env and react presets when converting from es6 to es5 
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
