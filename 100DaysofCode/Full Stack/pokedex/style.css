@@ -55,6 +55,7 @@ main > h1 {
     /* transition: 0.2s ease-in-out all; */
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    transform-origin: center right;
 }
 
 .card__face--front{
@@ -79,7 +80,7 @@ main > h1 {
 
 .card:hover {
     /* transform: scale(1.05); */
-    transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(-180deg);
 
 }
 
