@@ -5,6 +5,7 @@ const axios = require('axios');
 const path = require('path');
 // Section 2
 const app = express();
+const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, '..','public')));
 // app.use(cors());
 // Section 3
@@ -18,6 +19,6 @@ app.get('/users', (req, res) => {
      });
    });
 // Section 4
-app.listen(3000, () => {
- console.log('server started on port 3000');
+app.listen(port, () => {
+ console.log('server started on port', port);
 });
