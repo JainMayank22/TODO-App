@@ -46,7 +46,7 @@ const UploadForm = ({errors,dispatch}) => {
                 <Form.Text>Choose Picture to Upload</Form.Text>
                 <Form.Control type = "file" name = "picture" onChange = {handleOnChange} />
             </Form.Group>
-            <Button variant="primary" type="submit" className = {`${ !picture ? 'disabled submit-btn': 'submit-btn' }`} disabled = {photo? false:true}>Upload</Button>
+            <Button variant="primary" type="submit" className = {`${ !picture ? 'disabled submit-btn': 'submit-btn' }`} disabled = {picture? false:true}>Upload</Button>
             </Form>
         </React.Fragment>
     );
