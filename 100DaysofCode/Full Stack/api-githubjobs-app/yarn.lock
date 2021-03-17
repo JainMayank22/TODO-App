@@ -9692,6 +9692,11 @@ redux-cached-api-middleware@^0.3.0:
   resolved "https://registry.yarnpkg.com/redux-cached-api-middleware/-/redux-cached-api-middleware-0.3.0.tgz#ea81c20d27168c9117250a171f0cd1ee4c425229"
   integrity sha512-YvKazvQ1KmiiHVaVG3sKZDgGdPWL3C0cqIIS+HC9IFID5HzVXw+TvK/n8aTFsMf/VImdDb7IgA4NPoag/4q0eQ==
 
+redux-devtools-extension@^2.13.8:
+  version "2.13.9"
+  resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.9.tgz#6b764e8028b507adcb75a1cae790f71e6be08ae7"
+  integrity sha512-cNJ8Q/EtjhQaZ71c8I9+BPySIBVEKssbPpskBfsXqb8HJ002A3KRVHfeRzwRo6mGPqsm7XuHTqNSNeS1Khig0A==
+
 redux-thunk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"

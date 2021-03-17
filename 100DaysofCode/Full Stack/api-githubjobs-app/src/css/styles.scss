@@ -1,4 +1,4 @@
-$body-color: #021122;
+$body-color: #f3f3f3;
 $default-padding: 2rem;
 
 * {
@@ -15,7 +15,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.6rem;
-  background: #070a47;
+  background: #a5a8da;
   color: $body-color;
   min-height: 100vh;
   letter-spacing: 1px;
@@ -36,7 +36,7 @@ ol {
   .title {
     font-weight: 600;
     font-size: 3rem;
-    color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -54,7 +54,7 @@ ol {
     letter-spacing: 1px;
     width: 13rem;
     line-height: 1.5;
-    color: rgb(218, 28, 28);
+    color: rgb(28, 218, 60);
     border: none;
   }
 }
@@ -68,13 +68,13 @@ ol {
     margin-left: 0;
     padding: 1rem;
     display: block;
-    border: 1px solid #888;
+    border: 1px solid rgb(245, 115, 115);
     border-radius: 25px;
     cursor: pointer;
   }
   .active {
-    background: #94c0ee;
-    color: #fff;
+    background: #ced5db;
+    color: rgb(121, 181, 238);
   }
   .full-time-checkbox {
     input {
@@ -103,7 +103,7 @@ ol {
     }
 
     &:hover {
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+      box-shadow: 0 0 10px rgba(233, 64, 64, 0.4);
     }
 
     .job-info {
@@ -160,7 +160,7 @@ ol {
     }
     a:hover,
     a:active {
-      color: #fff;
+      color: rgb(233, 88, 88);
       text-decoration: none;
     }
   }
@@ -218,7 +218,7 @@ ol {
   font-size: 2rem;
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+  color: rgb(235, 139, 139);
 }
 
 #loader {
