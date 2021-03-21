@@ -24,7 +24,7 @@ const Gallery = ({errors, pictures, dispatch})=>{
         )}
         {isLoading ? (
             <div className="loading-msg centered-message">Loading...</div>
-        ): (pictures.map((picture)   =>  <Picture key={picture._id}  id ={picture._id} />))
+        ): (pictures.map((photo)   =>  <Picture key={photo._id}  id ={photo._id} />))
         }
         </div>
     );

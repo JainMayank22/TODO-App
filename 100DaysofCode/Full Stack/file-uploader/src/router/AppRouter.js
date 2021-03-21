@@ -12,7 +12,7 @@ const AppRouter = () => (
             <div className = "main-content">
             <Switch>
                 <Route component = {HomePage} path = "/"  exact = {true} />
-                <Route component = {Gallery} path ="/gallery" />
+                <Route component = {Gallery} path ="/picture-lib" />
                 <Route component = {NotFoundPage} />
             </Switch>
             </div>
