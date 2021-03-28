@@ -2,6 +2,8 @@ import axios from 'axios';
 import { BASE_API_URL } from '../utils/constants';
 import { getErrors } from './errors';
 
+// makes API call for uploading the image to the server.
+
 export const beginAddPicture = (photo) => {
   return async (dispatch) => {
     try {
@@ -9,6 +11,7 @@ export const beginAddPicture = (photo) => {
       formData.append('photo', photo);
       await axios.post(`${BASE_API_URL}/photos`, formData, {
         headers: {
+          // To handle the file upload, the content-type must be of multipart/form-data type.
           'Content-Type': 'multipart/form-data'
         }
       });

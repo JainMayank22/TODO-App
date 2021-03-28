@@ -5,7 +5,7 @@ import {beginAddPicture} from '../actions/photos';
 
 //  Add Comment if any
 const UploadForm = ({errors,dispatch}) => {
-    const [picture, setPicture] = useState(null);
+    const [photo, setPicture] = useState(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [errorMsg, setErrorMsg] = useState(null);
 
@@ -25,9 +25,9 @@ const UploadForm = ({errors,dispatch}) => {
 // Add Comment if any
     const handleFormSubmit =(event) => {
         event.preventDefault();
-        if(picture){
+        if(photo){
             setErrorMsg('');
-            dispatch(beginAddPicture(picture));
+            dispatch(beginAddPicture(photo));
             setIsSubmitted(true);
         }
     };
@@ -44,9 +44,9 @@ const UploadForm = ({errors,dispatch}) => {
             >
             <Form.Group>
                 <Form.Text>Choose Picture to Upload</Form.Text>
-                <Form.Control type = "file" name = "picture" onChange = {handleOnChange} />
+                <Form.Control type = "file" name = "photo" onChange = {handleOnChange} />
             </Form.Group>
-            <Button variant="primary" type="submit" className = {`${ !picture ? 'disabled submit-btn': 'submit-btn' }`} disabled = {picture? false:true}>Upload</Button>
+            <Button variant="primary" type="submit" className = {`${ !photo ? 'disabled submit-btn': 'submit-btn' }`} disabled = {photo? false:true}>Upload</Button>
             </Form>
         </React.Fragment>
     );
@@ -55,7 +55,7 @@ const UploadForm = ({errors,dispatch}) => {
 // Add Comment if any
 
 const mapStateToProps = (state) => ({
-    pictures: state.pictures || [],
+    photos: state.photos || [],
     errors: state.errors || {}
 });
 
