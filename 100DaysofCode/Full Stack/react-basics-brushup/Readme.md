@@ -1,0 +1,1 @@
+React application all within around 100 lines of code, which makes use of many of the core concepts of React: hooks, state management, forms, JSX elements, components, props, styling, and conditionals.
